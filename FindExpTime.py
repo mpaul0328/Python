@@ -1,7 +1,11 @@
 ''' run FindExpTime.py InputListFile OutputFile
 
     Reads in a bunch of image files and then prints the exposure 
-times of each image into another file'''
+times of each image into another file. Use FileList.py to create a 
+InputListFile
+
+30-JUL-2015 
+    Converted to Python by Manuel Paul (paulm302@coyote.csusb.edu)'''
 
 from sys import argv
 from astropy.io import fits 
