@@ -20,5 +20,3 @@ for file in flist:
 flist.close()
 filename.close()
 outfile.close()
-        
-        
