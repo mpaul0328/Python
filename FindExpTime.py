@@ -13,6 +13,7 @@ for file in flist:
     filename = fits.open(file)
     time = filename[0].header['EXPTIME']
     outfile.write(file + " ExpTime = " + str(time) + "\n")
+flist.close()
 filename.close()
 outfile.close()
         
